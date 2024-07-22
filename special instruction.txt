@@ -1,0 +1,3 @@
+The Code in the client.py file is code to Intergrate chatgpt with Jarvis
+
+I have comment out this code beacause this code only work when you have a paid api-key of openai which is worth of $5, unless the file client.py is not able to work
