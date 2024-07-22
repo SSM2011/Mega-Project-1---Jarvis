@@ -1,7 +1,7 @@
 # import openai
 
 # # Set your OpenAI API key
-# openai.api_key = "sk-proj-BcxuUYoIILcY7Ika9O0mT3BlbkFJQdrSOyj7ed1JNXTlYHj4"
+# openai.api_key = ""
 
 # # Create a chat completion request
 # response = openai.ChatCompletion.create(
