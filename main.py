@@ -83,4 +83,4 @@ if __name__ == "__main__":
         except sr.RequestError as e:
             print(f"Could not request results from Google Speech Recognition service; {e}")
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"Error: {e}") 
