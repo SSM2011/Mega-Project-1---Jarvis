@@ -1,16 +1,16 @@
-# import openai
+import openai
 
-# # Set your OpenAI API key
-# openai.api_key = ""
+# Set your OpenAI API key
+openai.api_key = ""
 
-# # Create a chat completion request
-# response = openai.ChatCompletion.create(
-#     model="gpt-4",  # Replace with the correct model name
-#     messages=[
-#         {"role": "system", "content": "You are a virtual assistant named Jarvis skilled in general tasks like Alexa and Google Cloud."},
-#         {"role": "user", "content": "What is coding?"}
-#     ]
-# )
+# Create a chat completion request
+response = openai.ChatCompletion.create(
+    model="gpt-4",  # Replace with the correct model name
+    messages=[
+        {"role": "system", "content": "You are a virtual assistant named Jarvis skilled in general tasks like Alexa and Google Cloud."},
+        {"role": "user", "content": "What is coding?"}
+    ]
+)
 
-# # Print the response
-# print(response['choices'][0]['message']['content'])
+# Print the response
+print(response['choices'][0]['message']['content'])
